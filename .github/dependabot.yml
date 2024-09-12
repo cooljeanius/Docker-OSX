@@ -8,6 +8,8 @@ version: 2
 updates:
   - package-ecosystem: "docker"  # See docs for possible values
     directory: "/"  # Location of package manifests
+    directory: "/helm"
+    directory: "/vnc-version"
     schedule:
       interval: "weekly"
   - package-ecosystem: "gitsubmodule"
